@@ -9,13 +9,11 @@ class Value:
         self.amount = value - value * obj.commission
 
 
-
 class Account:
     amount = Value()
 
     def __init__(self, commission):
         self.commission = commission
-
 
 
 new_account = Account(0.1)
